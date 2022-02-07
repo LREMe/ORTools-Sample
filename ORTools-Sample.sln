@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleORTools-Sample", "ConsoleORTools-Sample\ConsoleORTools-Sample.csproj", "{FB12CB29-4378-4E05-ABB0-8A1CF0C42C59}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vrp", "..\..\..\..\..\CODE.current\OR.Tools\or-tools_VisualStudio2019-64bit_v9.2.9972\examples\dotnet\Vrp\Vrp.csproj", "{7334429B-FFEC-4634-AFC1-C3FE28B5A49F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB12CB29-4378-4E05-ABB0-8A1CF0C42C59}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB12CB29-4378-4E05-ABB0-8A1CF0C42C59}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB12CB29-4378-4E05-ABB0-8A1CF0C42C59}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB12CB29-4378-4E05-ABB0-8A1CF0C42C59}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7334429B-FFEC-4634-AFC1-C3FE28B5A49F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7334429B-FFEC-4634-AFC1-C3FE28B5A49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7334429B-FFEC-4634-AFC1-C3FE28B5A49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7334429B-FFEC-4634-AFC1-C3FE28B5A49F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3EC83375-29D2-426E-8BE8-D435C5F79FCA}
+	EndGlobalSection
+EndGlobal
