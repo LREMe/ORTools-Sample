@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleORTools-Sample", "Co
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Vrp", "..\..\..\..\..\CODE.current\OR.Tools\or-tools_VisualStudio2019-64bit_v9.2.9972\examples\dotnet\Vrp\Vrp.csproj", "{7334429B-FFEC-4634-AFC1-C3FE28B5A49F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleORTools-WithCoordinates", "ConsoleORTools-WithCoordinates\ConsoleORTools-WithCoordinates.csproj", "{CC8C9F4F-B6AC-4340-A0EC-D7277CB54EF6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{7334429B-FFEC-4634-AFC1-C3FE28B5A49F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7334429B-FFEC-4634-AFC1-C3FE28B5A49F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7334429B-FFEC-4634-AFC1-C3FE28B5A49F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC8C9F4F-B6AC-4340-A0EC-D7277CB54EF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC8C9F4F-B6AC-4340-A0EC-D7277CB54EF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC8C9F4F-B6AC-4340-A0EC-D7277CB54EF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC8C9F4F-B6AC-4340-A0EC-D7277CB54EF6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
