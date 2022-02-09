@@ -16,10 +16,10 @@
             for ( i = 0; i < ViewBag.CoordinateMatrixSolution.GetLength(0); i++)
             {
 
-                @:addAllClientsPoint(new google.maps.LatLng(@Html.Raw(ViewBag.CoordinateMatrixSolution[i,1]), @Html.Raw(ViewBag.CoordinateMatrixSolution[i,0])), @i);
+                @:addAllClientsPoint(new google.maps.LatLng(@Html.Raw(ViewBag.CoordinateMatrixSolution[i,0]), @Html.Raw(ViewBag.CoordinateMatrixSolution[i,1])), @i);
               }
 
-            @:map.panTo(new google.maps.LatLng(@Html.Raw(ViewBag.CoordinateMatrixSolution[5,1]), @Html.Raw(ViewBag.CoordinateMatrixSolution[5,0])));
+            @:map.panTo(new google.maps.LatLng(@Html.Raw(ViewBag.CoordinateMatrixSolution[5,0]), @Html.Raw(ViewBag.CoordinateMatrixSolution[5,1])));
             }
 
         }  
