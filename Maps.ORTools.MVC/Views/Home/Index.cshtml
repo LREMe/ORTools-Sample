@@ -1,0 +1,30 @@
+﻿@using Microsoft.Extensions.Configuration
+@inject IConfiguration Configuration
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <script type="text/javascript" src="https://maps.google.com/maps/api/js?key=@Configuration["Key"]"></script>
+
+    <script language="javascript">
+        <!--
+            
+        function viewPoints(){
+            @if (ViewBag.CoordinateMatrixSolution != null)
+            {
+                int i = 0;
+            for ( i = 0; i < ViewBag.CoordinateMatrixSolution.GetLength(0); i++)
+            {
+
+                @:addAllClientsPoint(new google.maps.LatLng(@Html.Raw(ViewBag.CoordinateMatrixSolution[i,1]), @Html.Raw(ViewBag.CoordinateMatrixSolution[i,0])), @i);
+              }
+
+            @:map.panTo(new google.maps.LatLng(@Html.Raw(ViewBag.CoordinateMatrixSolution[5,1]), @Html.Raw(ViewBag.CoordinateMatrixSolution[5,0])));
+            }
+
+        }  
+        -->
+    </script>
+
+        <div id="map" style="width: 100%; height: 800px;">
+        </div>
